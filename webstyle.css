@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: floralwhite;
+  margin: 0px;
+}
+
+header {
+  background-color: #9d6381;
+  color: white;
+  text-align: center;
+  margin: 80px;
+  padding: 20px;
+}
+
+nav {
+  background-color: #e5cad4;
+  text-align: center;
+  font-family: Arial;
+}
+nav a {
+  padding: 14px 16px;
+  display: inline-block;
+  color: green;
+}
+nav a:hover {
+ 
+  background-color: #cda8b8;
+  color: white;
+  text-align: center;
+  margin: 80px;
+  padding: 20px;
+  width: 100%; /* 確保背景填滿頁面寬度 */
+}
+footer {
+  background-color: #cda8b8;
+  color: #444444;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
+main {
+  padding: 20px;
+}
+.card {
+  background-color: white;
+  margin: 20px 10px;
+  border-radius: 15px;
+  background-image: url(image/card_img.jpg);
+  background-size: cover;
+}
+
+article {
+  float: left;
+  width: 73%;
+}
+aside {
+  float: right;
+  width: 25%;
+  text-align: center;
+}
+
+/* 技能區塊 */
+.skills {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.skills img {
+  width: 80px;
+  height: 80px;
+  border-radius: 15%;
+  margin-bottom: 10px;
+}
+
+.ll {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 130px;
+  background-color: #f9f9f9;
+  font-size: 14px;
+  margin: 0;
+}
+
+/* 個人經歷區塊 */
+.pp {
+text-align: center;
+display: flex;
+justify-content: center;
+gap: 20px;
+background-color: #f0f0f0;
+padding: 20px;
+border-radius: 8px;
+flex-wrap: wrap; /* 讓卡片換行排列 */
+}
+
+.pp img {
+width: 150px; /* 固定寬度 */
+height: 120px; /* 固定高度 */
+border-radius: 8px;
+object-fit: cover;
+}
+
+.ppp {
+text-align: center;
+padding: 15px;
+border: 1px solid #ddd;
+border-radius: 8px;
+width: 200px; /* 固定寬度，確保卡片大小一致 */
+background-color: #ffffff;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+margin: 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.ppp img {
+margin-bottom: 10px;
+}
+
+/* 聯絡資訊區塊 */
+.card2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.ccc {
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 4px;
+  width: 75%;
+  gap: 10px;
+}
+
+.ccc img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.ccc span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.about-me {
+text-align: center;
+}
+
+.profile-pic {
+display: flex;
+justify-content: center;
+margin-bottom: 15px;
+}
+
+.profile-pic img {
+width: 150px;            /* 調整頭貼圖片大小 */
+height: 150px;
+border-radius: 50%;      /* 圓形圖片 */
+object-fit: cover;       /* 圖片裁剪以適應容器 */
+border: 2px solid #ddd;  /* 增加邊框 */
+
+}
